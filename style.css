@@ -80,3 +80,6 @@ nav img {
     border: 1px solid #f44336;
     transition: .5s;
 }
+nav .close, nav .menubar {
+    display: none;
+}

@@ -2,4 +2,34 @@
     .text-box h1 {
         font-size: 25px;
     }
+    .navlinks ul li {
+        display: block;
+    }
+    .navlinks {
+        background: #f44336;
+        height: 100vh;
+        position: absolute;
+        width: 200px;
+        top: 0;
+        right: -3000px;
+        text-align: left;
+        z-index: 2;
+    }
+    nav .close {
+        display: block;
+        width: 20px;
+        height: auto;
+        margin: 10px;
+    }
+    .navlinks ul {
+        padding: 20px;
+    }
+
+    nav .menubar {
+        display: block;
+        width: 20px;
+        height: auto;
+        margin: 10px;
+    }
+
 }
