@@ -14,7 +14,7 @@
        <nav>
            <a href="#"><img src="images/logo.png"></a>
            <div class="navlinks" id="navlinks">
-            <img src="images/12.png" alt="" class="close" onclick="cross">
+            <img src="images/12.png" alt="" class="close" onclick="cross()">
                <ul>
                    <li><a href="#">HOME</a></li>
                    <li><a href="#">ABOUT</a></li>
@@ -23,7 +23,7 @@
                    <li><a href="#">CONTACT</a></li>
                </ul>
            </div>
-           <img src="images/3.png" alt="" class="menubar" onclick="show" >
+           <img src="images/3.png" alt="" class="menubar" onclick="show()" >
        </nav>
        <div class="text-box">
            <h1>World Biggest University</h1>
@@ -36,10 +36,12 @@
 
    </section>
 
+
+   <!--Javascrit function-->
    <script>
        var inOut = document.getElementById("navlinks")
        function cross(){
-           navlinks.style.right = "-200";
+           navlinks.style.right = "-300px";
        }
        function show(){
            navlinks.style.right = "0";
